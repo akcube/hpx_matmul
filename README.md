@@ -15,15 +15,16 @@ This is my implementation of parallelized matrix multiplication using the HPX li
 All binaries are created in `/build/bin`. Run the driver program there.
 
 Optional command line arguments:
-    - `n` : Number of rows of matrix M_1
-    - `k` : Number of columns of matrix M_1 = Number of rows of matrix M_2
-    - `m` : Number of columns of matrix M_2
-    - `l` : The lower bound on the randomized values
-    - `r` : The upper bound on the randomized values
+
+- `n` : Number of rows of matrix M_1  
+- `k` : Number of columns of matrix M_1 = Number of rows of matrix M_2
+- `m` : Number of columns of matrix M_2
+- `l` : The lower bound on the randomized values
+- `r` : The upper bound on the randomized values
 
 Note: `l <= r` must be satisfied.
 The program will create two random `int` matrices and display the result of their multiplication. 
 
-# TODO
+## TODO
 
 Write tests
